@@ -12,6 +12,11 @@
     padding-right: 15px;
     margin: 0 auto;
   }
+
+  .mob-menu-container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 768px) {
