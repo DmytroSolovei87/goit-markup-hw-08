@@ -56,8 +56,8 @@
           </ul>
         </nav>
         <button type="button" class="menu-mob-btn">
-          <svg class="mob-icon" width="40" height="40">
-            <use href="./images/symbol-defs.svg#icon-person"></use>
+          <svg class="mob-icon" width="24" height="16">
+            <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
           </svg>
         </button>
       </div>
@@ -65,8 +65,8 @@
         <div class="mob-conteiner">
           <div class="mob-menu-top">
             <button class="mob-btn-close" type="button">
-              <svg class="close-icon" width="40" height="40">
-                <use href="./images/symbol-defs.svg#icon-close"></use>
+              <svg class="close-icon" width="19" height="19">
+                <use href="./images/symbol-defs.svg#icon-close_24px"></use>
               </svg>
             </button>
             <nav class="mob-nav">
@@ -197,31 +197,55 @@
           <h2 class="section-jobs__title">Чим ми займаємося</h2>
           <ul class="section-jobs__list">
             <li class="section-jobs__item">
-              <img
-                src="./images/img.jpg"
-                alt="ілюстрація чим займається компанія"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/img-feat-desc1@1x.jpg 1x,
+                    ./images/img-feat-desc1@2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/img-feat-desc1@1x.jpg"
+                  alt="ілюстрація чим займається компанія"
+                  width="370"
+                />
+              </picture>
               <div class="section-jobs__block">
                 <p class="section-jobs__text">Десктопні додатки</p>
               </div>
             </li>
             <li class="section-jobs__item">
-              <img
-                src="./images/img1.jpg"
-                alt="ілюстрація чим займається компанія"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/img-feat-desc2@1x.jpg 1x,
+                    ./images/img-feat-desc2@2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/img-feat-desc2@1x.jpg"
+                  alt="ілюстрація чим займається компанія"
+                  width="370"
+                />
+              </picture>
               <div class="section-jobs__block">
                 <p class="section-jobs__text">Мобільні додатки</p>
               </div>
             </li>
             <li class="section-jobs__item">
-              <img
-                src="./images/img2.jpg"
-                alt="ілюстрація чим займається компанія"
-                width="370"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/img-feat-desc3@1x.jpg 1x,
+                    ./images/img-feat-desc3@2x.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/img-feat-desc3@1x.jpg"
+                  alt="ілюстрація чим займається компанія"
+                  width="370"
+                />
+              </picture>
               <div class="section-jobs__block">
                 <p class="section-jobs__text">Дизайнерські рішення</p>
               </div>
@@ -236,7 +260,34 @@
           <h2 class="section-team__title">Наша команда</h2>
           <ul class="section-team__list">
             <li class="user-card">
-              <img class="user-img" src="./images/img3.jpg" alt="людина" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/img-team-desc1@1x.jpg 1x,
+                    ./images/img-team-desc1@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-tab1@1x.jpg 1x,
+                    ./images/img-team-tab1@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-mob1@1x.jpg 1x,
+                    ./images/img-team-mob1@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                />
+                <img
+                  src="./images/img-team-mob1@1x.jpg"
+                  alt="людина"
+                  width="450"
+                />
+              </picture>
               <div class="user-about">
                 <h3 class="user-about__title">Ігор Дем'яненко</h3>
                 <p class="user-about__work-name">Product Designer</p>
@@ -273,7 +324,34 @@
               </div>
             </li>
             <li class="user-card">
-              <img class="user-img" src="./images/img4.jpg" alt="людина" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/img-team-desc2@1x.jpg 1x,
+                    ./images/img-team-desc2@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-tab2@1x.jpg 1x,
+                    ./images/img-team-tab2@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-mob2@1x.jpg 1x,
+                    ./images/img-team-mob2@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                />
+                <img
+                  src="./images/img-team-mob2@1x.jpg"
+                  alt="людина"
+                  width="450"
+                />
+              </picture>
               <div class="user-about">
                 <h3 class="user-about__title">Ольга Рєпіна</h3>
                 <p class="user-about__work-name">Frontend Developer</p>
@@ -310,7 +388,34 @@
               </div>
             </li>
             <li class="user-card">
-              <img class="user-img" src="./images/img5.jpg" alt="людина" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/img-team-desc3@1x.jpg 1x,
+                    ./images/img-team-desc3@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-tab3@1x.jpg 1x,
+                    ./images/img-team-tab3@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-mob3@1x.jpg 1x,
+                    ./images/img-team-mob3@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                />
+                <img
+                  src="./images/img-team-mob3@1x.jpg"
+                  alt="людина"
+                  width="450"
+                />
+              </picture>
               <div class="user-about">
                 <h3 class="user-about__title">Микола Тарасов</h3>
                 <p class="user-about__work-name">Marketing</p>
@@ -347,7 +452,34 @@
               </div>
             </li>
             <li class="user-card">
-              <img class="user-img" src="./images/img6.jpg" alt="людина" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/img-team-desc4@1x.jpg 1x,
+                    ./images/img-team-desc4@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-tab4@1x.jpg 1x,
+                    ./images/img-team-tab4@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-team-mob4@1x.jpg 1x,
+                    ./images/img-team-mob4@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                />
+                <img
+                  src="./images/img-team-mob4@1x.jpg"
+                  alt="людина"
+                  width="450"
+                />
+              </picture>
               <div class="user-about">
                 <h3 class="user-about__title">Михайло Єрмаков</h3>
                 <p class="user-about__work-name">UI Designer</p>

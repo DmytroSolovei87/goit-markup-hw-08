@@ -10,7 +10,7 @@
 .menu-mob-btn {
   border: none;
   background-color: transparent;
-  padding: 0;
+  padding: 22px 0px;
 
   &:hover .mob-icon,
   &:focus .mob-icon {
@@ -54,8 +54,8 @@
 
 .mob-btn-close {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 21px;
+  right: 25px;
   display: block;
   border: none;
   background-color: transparent;
@@ -89,5 +89,5 @@
 
 .mob-btn-close:hover ~ .mob-nav .mob-nav__link--current,
 .mob-btn-close:focus ~ .mob-nav .mob-nav__link--current {
-  color: #212121;
+  color: var(--title-text-color);
 }
